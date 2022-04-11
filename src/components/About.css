@@ -1,0 +1,66 @@
+.about{
+    padding: 0 150px 0;
+}
+
+.about_description{
+    margin-top: 50px;
+}
+
+.about_right{
+    margin-left: 50px;
+}
+
+.portrait{
+    width: 330px;
+}
+
+.technologies i{
+    font-size: 50px;
+}
+
+@media screen and (min-width:1024px) {
+    .description_container_grid{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+@media screen and (min-width:780px) and (max-width: 1024px) {
+    .description_container_grid{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+    .portrait{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .about{
+        padding: 0 75px 0;
+    }
+    .portrait_position{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .portrait{
+        width: 200px;
+    }
+    .about_right{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .subtitle_about{
+        padding-top: 10px;
+    }
+    .technologies{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .about{
+        padding: 0 25px 0;
+    }
+}

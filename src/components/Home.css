@@ -1,0 +1,91 @@
+.home {
+    padding: 75px;
+}
+
+.home img{
+    width: 600px;
+}
+
+.welcome, .introduction{
+    text-align: center;
+    padding: 25px;
+}
+
+.name{
+    font-size: clamp(40px, 8vw, 60px);
+    letter-spacing: var(--spacing-1);
+    color: var(--subtitle-color);
+}
+
+.side_bar{
+    position: fixed;
+    bottom: -15px;
+    left: 30px;
+}
+
+.side_bar_icons{
+    list-style: none;
+    font-size: 1.6em;
+}
+
+.side_bar_icons::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 150px;
+    margin: 0px auto;
+    background-color: var(--title-color);
+}
+
+.side_bar_icons li{      
+    padding-bottom: 15px;
+}
+
+.side_bar_icons li a{      
+    text-decoration: none;
+    color:  var(--title-color);
+}
+
+.side_bar_icons li a i:hover{     
+    color: var(--subtitle-color);  
+    font-size: 1.1em;  
+    transition: all 0.25s;
+    position: relative;
+}
+
+#myArrow{
+    position: fixed;
+    display: none;
+    bottom: 50px;
+    right: 50px;
+    font-size: 1.6em;
+    color: var(--title-color);
+    cursor: pointer;
+}
+
+#myArrow:hover{
+    color: var(--subtitle-color);
+}
+
+@media screen and (max-width:862px) {
+    .home {
+        padding: 0px;
+    }
+    .home img{
+        width: 400px;
+    }
+    .side_bar{
+        position: fixed;
+        bottom: -15px;
+        left: 20px;
+    }
+    .side_bar_icons{
+        padding-left: 0;
+        font-size: 1.2em;
+    }
+    #myArrow{
+        font-size: 1.2em;
+        bottom: 50px;
+        right: 30px;
+    }
+}
