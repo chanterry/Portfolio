@@ -1,0 +1,85 @@
+.navbar{
+    top: 0;
+    width: 100%;
+    border-bottom: var(--border-color) 0.5px solid;
+    padding: var(--spacing-4);
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar.sticky{
+    background-color: var(--body-bg-color);
+    position: fixed;
+}
+
+.navbar img{
+    height: 50px;
+}
+
+.navbar_list{
+    display: flex;
+    color: var(--title-color);
+}
+
+.navbar_list li {
+    list-style: none;
+    text-emphasis: none;
+    margin-left: 100px;
+}
+
+.navbar_list li a{
+    position: relative;
+    text-decoration: none;
+    color: var(--title-color);
+    padding: 0 5px;
+}
+
+.navbar_list li a:after{
+    content: "";
+    position: absolute;
+    background-color: var(--subtitle-color);
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.navbar_list li a:hover:after{
+    width: 100%;
+}
+
+.navbar_list li a:hover{
+    color: var(--subtitle-color);
+
+    transition: 0.1s;
+}
+
+.logo{
+    border: 0.5px solid var(--title-color);
+    border-radius: 50%;
+}
+
+.flag-icon{
+    cursor: pointer;
+}
+
+@media screen and (max-width:862px) {
+    .navbar_list{
+        display: grid;
+        text-align: center;
+        color: var(--title-color);
+    }
+    .navbar ul{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .navbar{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
