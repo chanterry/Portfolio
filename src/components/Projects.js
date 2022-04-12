@@ -2,7 +2,13 @@ import React from "react"
 import { useTranslation } from "react-i18next";
 import './Projects.css'
 
-const Projects = () => {
+import bric_broc from '../img/bric_broc.png'
+import la_cite from '../img/la_cite.png'
+import resume from '../img/resume.png'
+import CV_english from '../img/Terry_Resume.pdf'
+import CV_french from '../img/CV_Terry.pdf'
+
+const Projects = (props) => {
 
     const { t } = useTranslation();
 
@@ -12,7 +18,7 @@ const Projects = () => {
 
             <div className="row projects_description">
                 <div >
-                    <a href="https://www.behance.net/gallery/135536637/Bric-Broc-Toy-rental-Website" target="_blank" rel="noreferrer"><img src="./images/bric_broc.png" className="projects_img" alt="bric_broc"></img></a>
+                    <a href="https://www.behance.net/gallery/135536637/Bric-Broc-Toy-rental-Website" target="_blank" rel="noreferrer"><img src={bric_broc} className="projects_img" alt="bric_broc"></img></a>
                 </div>
                 <div>
                     <h2 className="subtitle_projetcs">{t('bric_broc')}</h2>
@@ -23,7 +29,7 @@ const Projects = () => {
 
             <div className="row projects_description">
                 <div>
-                    <a href="https://fr.egliselacite.com/" target="_blank" rel="noreferrer"><img src="./images/la_cite.png" className="projects_img" alt="la_cite"></img></a>
+                    <a href="https://fr.egliselacite.com/" target="_blank" rel="noreferrer"><img src={la_cite} className="projects_img" alt="la_cite"></img></a>
                 </div>
                 <div>
                     <h2 className="subtitle_projetcs">{t('la_cite')}</h2>
@@ -34,7 +40,7 @@ const Projects = () => {
 
             <div className="row projects_description">
                 <div>
-                    <a href="https://chanterry.github.io/Resume_react/" target="_blank" rel="noreferrer"><img src="./images/resume.png" className="projects_img" alt="resume"></img></a>
+                    <a href="https://chanterry.github.io/Resume_react/" target="_blank" rel="noreferrer"><img src={resume} className="projects_img" alt="resume"></img></a>
                 </div>
                 <div>
                     <h2 className="subtitle_projetcs">{t('resume_react')}</h2>
@@ -43,6 +49,7 @@ const Projects = () => {
 
                     <div className="resume">
                         <a href={t('resume_pdf')} className="resume_link" target='_blank' rel="noreferrer">{t('resume')}</a>
+                        <a href={CV_english} className="resume_test" target='_blank' rel="noreferrer">{t('resume')}</a>
                     </div>
                 </div>
             </div>

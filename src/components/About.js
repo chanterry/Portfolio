@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import './About.css'
 import Portrait from '../img/portrait.jpg'
 
-function About ({data2, data3}){
+function About ({data, data2}){
 
     const { t } = useTranslation();
 
@@ -34,13 +34,13 @@ function About ({data2, data3}){
                 <h2 className="subtitle">{t('technologies')}</h2>
                 <div>
                     <div className="row technologies_logo">
-                        {data2.map((item) => 
+                        {data.map((item) => 
                             <div className="col-2" key={item.id}>{item.logo}</div>
                         )}
                     </div>
 
                     <div className="row">
-                        {data3.map((item2) => 
+                        {data2.map((item2) => 
                             <div className="col-2" key={item2.id}>{item2.logo}</div>
                         )}
                     </div>

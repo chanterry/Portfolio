@@ -1,12 +1,10 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 import './Home.css';
-import 'flag-icon-css/css/flag-icons.css'
 
 const Home = () => {
 
     const { t } = useTranslation();
-console.log(t("about"));
     // Appel de la function scroll lors du scroll
     window.onscroll = function () {
         scrollFunction()
@@ -28,6 +26,8 @@ console.log(t("about"));
         document.documentElement.scrollTop = 0;
     }
 
+     
+
     return(
         <>
             <div className='home' id='home'>
@@ -37,7 +37,6 @@ console.log(t("about"));
                         <li><a href='https://www.linkedin.com/in/terrychan-paris/' target='_blank' rel='noreferrer'><i className="devicon-linkedin-plain"></i></a></li>
                     </ul>
                 </div>
-
 
                 <div className='welcome'>
                     <p className='title'>{t('welcome_message')}</p>
