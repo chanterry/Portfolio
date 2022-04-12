@@ -1,7 +1,6 @@
 import React from "react"
 import { useTranslation } from "react-i18next";
 import './Projects.css'
-
 import bric_broc from '../img/bric_broc.png'
 import la_cite from '../img/la_cite.png'
 import resume from '../img/resume.png'
@@ -9,6 +8,8 @@ import CV_english from '../img/Terry_Resume.pdf'
 import CV_french from '../img/CV_Terry.pdf'
 
 const Projects = (props) => {
+
+    const {toggle3} = props;
 
     const { t } = useTranslation();
 
@@ -48,8 +49,7 @@ const Projects = (props) => {
                     <p>{t('resume_react_description')}</p>
 
                     <div className="resume">
-                        <a href={t('resume_pdf')} className="resume_link" target='_blank' rel="noreferrer">{t('resume')}</a>
-                        <a href={CV_english} className="resume_test" target='_blank' rel="noreferrer">{t('resume')}</a>
+                        <a href={toggle3 ? CV_french : CV_english}  className="resume_link" target='_blank' rel="noreferrer">{t('resume')}</a>
                     </div>
                 </div>
             </div>

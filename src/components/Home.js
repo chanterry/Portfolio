@@ -2,7 +2,9 @@ import React from 'react';
 import { useTranslation } from "react-i18next";
 import './Home.css';
 
-const Home = () => {
+const Home = (props) => {
+
+    const {toggle2} = props;
 
     const { t } = useTranslation();
     // Appel de la function scroll lors du scroll
@@ -26,7 +28,6 @@ const Home = () => {
         document.documentElement.scrollTop = 0;
     }
 
-     
 
     return(
         <>
@@ -43,11 +44,13 @@ const Home = () => {
                     <h1 className='name'>{t('name')},</h1>
                     <h2>{t('position')}.</h2>
                 </div>
-                <div className='introduction'>
-                    <img src={t('introduction')} alt='presentation'></img>
+                <div 
+                    className= {toggle2 ? 'presentation' : 'introduction'}
+                >
                 </div>
                 <div>
-                    <i className="fa-solid fa-circle-arrow-up" id='myArrow' onClick={topFunction}></i>
+                    <i className="fa-solid fa-circle-arrow-up" id='myArrow' onClick={topFunction}
+                    ></i>
                 </div>
             </div>
         </>

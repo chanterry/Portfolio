@@ -7,8 +7,18 @@
     padding: 25px;
 }
 
-.introduction{
+.presentation{
     background-image: url('../img/presentation.png');
+    background-size: contain;
+    background-repeat: no-repeat;;
+    height: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.introduction{
+    background-image: url('../img/introduction.png');
     background-size: contain;
     background-repeat: no-repeat;;
     height: 360px;

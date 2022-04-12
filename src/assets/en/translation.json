@@ -5,7 +5,6 @@
     "welcome_message": "Welcome, my name is",
     "name": "Terry Chan",
     "position": "Front-End Web Developer",
-    "introduction": "./images/introduction.png",
     "me": "Me",
     "me_paragraph": "Born and raised in Paris, I did my studies in France and the US. Some of my friends say that I've had different lives because I traveled so much and had different career paths. Now, I'm onto a new adventure that is web development. That desire arose when I became a Bitcoin enthusiast and started to grasp the power of the Blockchain, which made me curious of coding. From there, I attended a +460 hours coding bootcamp for web development. I am now ready and eager to land my first job. Hopefully, you will be the one who will give me that opportunity. And you won't regret it!",
     "me_believer": "I'm a believer of",
@@ -22,7 +21,6 @@
     "resume_react": "Resume",
     "resume_react_subtitle": "React application for my resume.",
     "resume_react_description": "Creation of my resume through React to make it more interactive.",
-    "resume": "Download",
-    "resume_pdf": "./images/Terry_Resume.pdf"
+    "resume": "Download"
   }
 }
