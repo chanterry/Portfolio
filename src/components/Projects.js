@@ -6,6 +6,7 @@ import la_cite from '../img/la_cite.png'
 import resume from '../img/resume.png'
 import CV_english from '../img/Terry_Resume.pdf'
 import CV_french from '../img/CV_Terry.pdf'
+import crypto_app from '../img/crypto_app.png'
 
 const Projects = (props) => {
 
@@ -36,6 +37,17 @@ const Projects = (props) => {
                     <h2 className="subtitle_projetcs">{t('la_cite')}</h2>
                     <p>{t('la_cite_subtitle')}</p>
                     <p>{t('la_cite_description')}</p>
+                </div>
+            </div>
+
+            <div className="row projects_description">
+                <div>
+                    <a href="https://chanterry.github.io/crypto-app/" target="_blank" rel="noreferrer"><img src={crypto_app} className="projects_img" alt="crypto_app"></img></a>
+                </div>
+                <div>
+                    <h2 className="subtitle_projetcs">{t('crypto_app')}</h2>
+                    <p>{t('crypto_app_subtitle')}</p>
+                    <p>{t('crypto_app_description')}</p>
                 </div>
             </div>
 

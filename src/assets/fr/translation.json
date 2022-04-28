@@ -21,6 +21,9 @@
     "resume_react": "Curriculum Vitae",
     "resume_react_subtitle": "Application React pour mon CV.",
     "resume_react_description": "Creation de mon CV à travers React pour le rendre plus interactif.",
-    "resume": "Télécharger"
+    "resume": "Télécharger",
+    "crypto_app": "Crypto App",
+    "crypto_app_subtitle": "Projet React sur les cryptomonnaies.",
+    "crypto_app_description": "Évolution financière des cryptomonnaies en utilisant API, des hooks, et axios"
   }
 }

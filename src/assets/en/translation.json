@@ -21,6 +21,9 @@
     "resume_react": "Resume",
     "resume_react_subtitle": "React application for my resume.",
     "resume_react_description": "Creation of my resume through React to make it more interactive.",
-    "resume": "Download"
+    "resume": "Download",
+    "crypto_app": "Crypto App",
+    "crypto_app_subtitle": "React project on cryptocurrencies.",
+    "crypto_app_description": "Cryptocurrency finance price tracker using API, Hooks, Axios."
   }
 }
