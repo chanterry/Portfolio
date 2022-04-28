@@ -2,7 +2,7 @@ import React from "react"
 import { useTranslation } from "react-i18next";
 import './Projects.css'
 import bric_broc from '../img/bric_broc.png'
-import la_cite from '../img/la_cite.png'
+//import la_cite from '../img/la_cite.png'
 import resume from '../img/resume.png'
 import CV_english from '../img/Terry_Resume.pdf'
 import CV_french from '../img/CV_Terry.pdf'
@@ -29,16 +29,6 @@ const Projects = (props) => {
                 </div>
             </div>
 
-            <div className="row projects_description">
-                <div>
-                    <a href="https://fr.egliselacite.com/" target="_blank" rel="noreferrer"><img src={la_cite} className="projects_img" alt="la_cite"></img></a>
-                </div>
-                <div>
-                    <h2 className="subtitle_projetcs">{t('la_cite')}</h2>
-                    <p>{t('la_cite_subtitle')}</p>
-                    <p>{t('la_cite_description')}</p>
-                </div>
-            </div>
 
             <div className="row projects_description">
                 <div>

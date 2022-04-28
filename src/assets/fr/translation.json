@@ -6,8 +6,8 @@
     "name": "Terry Chan",
     "position": "Développeur Web Front-End",
     "me": "Moi",
-    "me_paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "me_believer": "Je crois dans",
+    "me_paragraph": "Né à Paris, j'y ai effectué une partie de mes études avant de partir aux États-Unis. Certains de mes amis pensent que j'ai eu différentes vies par mes voyages et mes différentes carrières. À présent, je m'aventure dans le développement web. Ce désir est survenu lorsque je me suis intéressé de plus près au bitcoin et commencé à saisir la puissance de la Blockchain, ce qui m'a rendu curieux du code. De là, j'ai participé à un bootcamp de code pour apprendre à développer.  Depuis, je développe des projets et continue à apprendre dans ce milieu fascinant.",
+    "me_believer": "Je crois à",
     "clean_code": "un code propre",
     "open_source": "les outils open source",
     "ux_exp": "une expérience d'utilisateur agréable",
@@ -24,6 +24,7 @@
     "resume": "Télécharger",
     "crypto_app": "Crypto App",
     "crypto_app_subtitle": "Projet React sur les cryptomonnaies.",
-    "crypto_app_description": "Évolution financière des cryptomonnaies en utilisant API, des hooks, et axios"
+    "crypto_app_description": "Évolution financière des cryptomonnaies en utilisant API, des hooks, et axios",
+    "copyright": "Tous Droits Réservés"
   }
 }
