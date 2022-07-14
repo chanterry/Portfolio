@@ -4,7 +4,7 @@
     "projects": "Projects",
     "welcome_message": "Welcome, my name is",
     "name": "Terry Chan",
-    "position": "Front-End Web Developer",
+    "position": "Front End Developer",
     "me": "Me",
     "me_paragraph": "Born and raised in Paris, I did my studies in France and the US. Some of my friends say that I've had different lives because I traveled so much and had different career paths. Now, I'm onto a new adventure that is web development. That desire arose when I became a Bitcoin enthusiast and started to grasp the power of the Blockchain, which made me curious of coding. From there, I attended a +460 hours coding bootcamp for web development. Since, I work on project and keep learning in this fascinating world.",
     "me_believer": "I'm a believer of",
@@ -25,6 +25,9 @@
     "crypto_app": "Crypto App",
     "crypto_app_subtitle": "React project on cryptocurrencies.",
     "crypto_app_description": "Cryptocurrency finance price tracker using API, Hooks, Axios.",
+    "todolist_app": "Todo List",
+    "todolist_app_subtitle": "Application to create to-do lists",
+    "todolist_app_description": "Usage of Bootstrap/Reactstrap as well as modals to make todo lists",
     "copyright": "All Rights Reserved"
   }
 }
